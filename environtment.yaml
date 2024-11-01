@@ -1,0 +1,21 @@
+name: badminton
+channels:
+  - defaults
+dependencies:
+  - python=3.8  # 选择适合你需求的 Python 版本
+  - opencv-python
+  - selenium
+  - baidu-aip
+  - pillow
+
+# 说明
+# 1. 创建虚拟环境：
+#    conda env create -f environment.yml
+#
+# 2. 激活虚拟环境：
+#    conda activate badminton
+#
+# 3. 下载浏览器驱动：
+#    如果使用 Firefox，请下载 geckodriver。 https://blog.csdn.net/gitblog_01195/article/details/140978206
+#    如果使用 Chrome，请下载 chromedriver。
+#    这里我们使用 Firefox。
